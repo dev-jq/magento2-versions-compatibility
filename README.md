@@ -6,7 +6,7 @@
 |2.1 :no_entry: |June 2016|June 2019|July 1, 2019|
 |2.2 :no_entry: |September 2017|December 2019|December 2019|
 |2.3 :no_entry: |November 2018|July 2021|April 28, 2022|
-|2.4|July 2020|||
+|**2.4**|July 2020|||
 
 # [Supported Software](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html?lang=en)
 
@@ -61,20 +61,14 @@ Notes:
 
 ## Elasticsearch
 
-| Magento Minor Version | ES 1.x | ES 2.x | ES 5.x | ES 6.x | ES 7.4.x | ES 7.6.x | ES 7.9.x | ES 7.10.x |
-|:---|---|---|---|---|---|---|---|---|
-|2.1|✓<sup>1</sup>|✓<sup>2</sup>|2.1.1<sup>3</sup>|✗|✗|✗|✗|✗
-|2.2|Until 2.2.8<sup>4</sup>|✓|2.2.8+|2.2.8+|✗|✗|✗|✗
-|2.3|✗|Until 2.3.5|Until 2.3.5|✓|2.3.5+|✗|2.3.7+|✗|
-|2.4|✗|✗|✗|✗|2.4.2+<sup>6</sup>|2.4.0-2.4.1<sup>5</sup>|2.4.2+|2.4.4+
+| Magento Minor Version | ES 5.x | ES 6.x | ES 7.4.x | ES 7.6.x | ES 7.9.x | ES 7.10.x |
+|:---|---|---|---|---|---|---|
+|2.3|:information_source: Until 2.3.5|:white_check_mark:|:white_check_mark: 2.3.5+|:x:|:white_check_mark: 2.3.7+|:x:|
+|2.4|:x:|:x:|:white_check_mark: 2.4.2+<sup>2</sup>|:white_check_mark: 2.4.0-2.4.1<sup>1</sup>| :white_check_mark: 2.4.2+| :white_check_mark:2 .4.4+
 
 Notes:
-1. Versions 2.1.1-2.1.2 declare support for all 1.x, but all other 2.1.x versions only declare support for 1.7
-2. Version 2.1.0 only declares support for 2.0 and 2.1.  All other lines claim support for 2.x
-3. Version 2.1.1 is the only version in the 2.1.x line to declare support for ES 5, and then only for 5.0
-4. 2.2.0-2.2.7 declare support for ES 1.7
-5. 2.4.0 specifically declares support for ES 7.6.x
-6. 2.4.2 states "Magento 2.4.x remains compatible with Elasticsearch 7.4.x" despite compatibility not being declared at any point
+1. 2.4.0 specifically declares support for ES 7.6.x
+2. 2.4.2 states "Magento 2.4.x remains compatible with Elasticsearch 7.4.x" despite compatibility not being declared at any point
 
 ## Opensearch
 
@@ -118,8 +112,8 @@ Notes:
 |2.0|✗|✓|✗|✗|✗|✗|
 |2.1|✓|✓|✓|2.1.17+|2.1.17+|✗|
 |2.2|✓|✓|✓|✗|✗|✗|
-|2.3|Until 2.3.6|Until 2.3.6|Until 2.3.6|2.3.1 - 2.3.5|2.3.1 - 2.3.6|2.3.7+|
-|2.4|✗|✗|✗|✗|2.4.0 - 2.4.1|2.4.2+|
+|2.3|Until 2.3.6|Until 2.3.6|Until 2.3.6|2.3.1 - 2.3.5|2.3.1 - 2.3.6| :white_check_mark: 2.3.7+|
+|2.4|✗|✗|✗|✗|2.4.0 - 2.4.1|:white_check_mark: 2.4.2+|
 
 ## Varnish
 
