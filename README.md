@@ -50,38 +50,14 @@ Notes:
 ## Composer
 | Magento Minor Version | Composer 1 | Composer 2 |
 |:---|---|---|
-|2.0|✓|✗|
-|2.1|✓|✗|
-|2.2|✓|✗|
-|2.3|Until 2.3.7<sup>[1]</sup>|2.3.7+|
-|2.4|Until 2.4.2<sup>[1]</sup>|2.4.2+|
+|2.0| :white_check_mark: | :x: |
+|2.1| :white_check_mark: | :x: |
+|2.2| :white_check_mark: | :x: |
+|2.3| :information_source: Until 2.3.7<sup>[1]</sup>| :white_check_mark: 2.3.7+|
+|2.4| :information_source: Until 2.4.2<sup>[1]</sup>| :white_check_mark: 2.4.2+|
 
 Notes:
 1. Composer 1 still works with Magento 2.3.7 and 2.4.2, but is no longer supported.
-
-| Magento Version | Composer 2.1 | Composer 2.2 | Composer 2.5 |
-|:---|---|---|---|
-|2.4.4| Composer 2.1 | Composer 2.2 | Composer 2.5 |
-|2.4.4-p1| Composer 2.1 | Composer 2.2 | Composer 2.5 |
-|2.4.4-p2| Composer 2.1 | Composer 2.2 | Composer 2.5 |
-|2.4.4-p3| Composer 2.1 | Composer 2.2 | Composer 2.5 |
-|2.4.4-p4| Composer 2.1 | Composer 2.2 | Composer 2.5 |
-|2.4.4-p5| Composer 2.1 | Composer 2.2 | Composer 2.5 |
-|2.4.4-p6| Composer 2.1 | Composer 2.2 | Composer 2.5 |
-|2.4.4-p7| Composer 2.1 | Composer 2.2 | Composer 2.5 |
-|2.4.5| Composer 2.1 | Composer 2.2 | Composer 2.5 |
-|2.4.5-p1| Composer 2.1 | Composer 2.2 | Composer 2.5 |
-|2.4.5-p2| Composer 2.1 | Composer 2.2 | Composer 2.5 |
-|2.4.5-p3| Composer 2.1 | Composer 2.2 | Composer 2.5 |
-|2.4.5-p4| Composer 2.1 | Composer 2.2 | Composer 2.5 |
-|2.4.5-p5| Composer 2.1 | Composer 2.2 | Composer 2.5 |
-|2.4.5-p6| Composer 2.1 | Composer 2.2 | Composer 2.5 |
-|2.4.6| Composer 2.1 | Composer 2.2 | Composer 2.5 |
-|2.4.6-p1| Composer 2.1 | Composer 2.2 | Composer 2.5 |
-|2.4.6-p2| Composer 2.1 | Composer 2.2 | Composer 2.5 |
-|2.4.6-p3| Composer 2.1 | Composer 2.2 | Composer 2.5 |
-|2.4.6-p4| Composer 2.1 | Composer 2.2 | Composer 2.5 |
-|2.4.7-beta2| Composer 2.1 | Composer 2.2 | Composer 2.5 |
 
 ## Elasticsearch
 
