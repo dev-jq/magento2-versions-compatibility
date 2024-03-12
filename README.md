@@ -2,10 +2,10 @@
 
 | Magento Minor Version | Release | End of Quality Fixes| End of Security Fixes/End of Software Support |
 |:---|---|---|---|
-|2.0|November 2015|**March 2018**|**March 2018**|
-|2.1|June 2016|**June 2019**|**July 1, 2019**|
-|2.2|September 2017|**December 2019**|**December 2019**|
-|2.3|November 2018|**July 2021**|**April 28, 2022**|
+|2.0 :no_entry: |November 2015|March 2018|March 2018|
+|2.1 :no_entry: |June 2016|June 2019|July 1, 2019|
+|2.2 :no_entry: |September 2017|December 2019|December 2019|
+|2.3 :no_entry: |November 2018|July 2021|April 28, 2022|
 |2.4|July 2020|||
 
 # [Supported Software](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html?lang=en)
