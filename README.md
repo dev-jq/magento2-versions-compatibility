@@ -1,18 +1,12 @@
-# Magento 2.x.x lifecycle
+# [Magento 2.x.x lifecycle](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 
-EOQ: End of Quality Fixes.  
-EOL: End of Security Fixes/End of Software Support
-
-| Magento Minor Version | Release | <attr title="End of Quality Fixes">EOQ</attr> | <attr title="End of Security Fixes/End of Software Support">EOL</attr> |
+| Magento Minor Version | Release | End of Quality Fixes| End of Security Fixes/End of Software Support |
 |:---|---|---|---|
 |2.0|November 2015|**March 2018**|**March 2018**|
 |2.1|June 2016|**June 2019**|**July 1, 2019**|
 |2.2|September 2017|**December 2019**|**December 2019**|
 |2.3|November 2018|**July 2021**|**April 28, 2022**|
 |2.4|July 2020|||
-
-Notes:
-1. Information taken regularly from the [Magento Software Lifecycle Policy document](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 
 # [Supported Software](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html?lang=en)
 
@@ -22,7 +16,7 @@ Notes:
 | Magento Minor Version | PHP 7.1 | PHP 7.2 | PHP 7.3 | PHP 7.4 | PHP 8.0 | PHP 8.1 | PHP 8.2 | PHP 8.3 |
 |:---|---|---|---|---|---|---|---|---|
 |2.3.x|:white_check_mark:<sup>[1]</sup>|Until 2.3.6-p1|2.3.3 - 2.3.6<sup>[2]</sup>|2.3.7+|:x:|:x:|:x:|:x:|
-|2.4.x|:x:|:x:|Until 2.4.1<sup>[2]</sup>|Until 2.4.5<sup>[3]</sup>|:x:<sup>[3]</sup>|2.4.4+|2.4.6+|?|
+|2.4.x|:x:|:x:|Until 2.4.1<sup>[2]</sup>|Until 2.4.5<sup>[3]</sup>|:x:<sup>[3]</sup>|2.4.4+|2.4.6+|:grey_question:|
 
 Notes:
 1. Supports ~7.1.3
@@ -31,27 +25,27 @@ Notes:
 
 | Magento Version | PHP 7.1 | PHP 7.2 | PHP 7.3 | PHP 7.4 | PHP 8.0 | PHP 8.1 | PHP 8.2 | PHP 8.3 |
 |:---|---|---|---|---|---|---|---|---|
-|2.4.4| :x: | :x: | :x: | :x: | | :white_check_mark: | :x: | :x: |
-|2.4.4-p1| :x: | :x: | :x: | :x: | | :white_check_mark: | :x: | :x: |
-|2.4.4-p2| :x: | :x: | :x: | :x: | | :white_check_mark: | :x: | :x: |
-|2.4.4-p3| :x: | :x: | :x: | :x: | | :white_check_mark: | :x: | :x: |
-|2.4.4-p4| :x: | :x: | :x: | :x: | | :white_check_mark: | :x: | :x: |
-|2.4.4-p5| :x: | :x: | :x: | :x: | | :white_check_mark: | :x: | :x: |
-|2.4.4-p6| :x: | :x: | :x: | :x: | | :white_check_mark: | :x: | :x: |
-|2.4.4-p7| :x: | :x: | :x: | :x: | | :white_check_mark: | :x: | :x: |
-|2.4.5| :x: | :x: | :x: | :x: | | :white_check_mark: | :x: | :x: |
-|2.4.5-p1| :x: | :x: | :x: | :x: | | :white_check_mark: | :x: | :x: |
-|2.4.5-p2| :x: | :x: | :x: | :x: | | :white_check_mark: | :x: | :x: |
-|2.4.5-p3| :x: | :x: | :x: | :x: | | :white_check_mark: | :x: | :x: |
-|2.4.5-p4| :x: | :x: | :x: | :x: | | :white_check_mark: | :x: | :x: |
-|2.4.5-p5| :x: | :x: | :x: | :x: | | :white_check_mark: | :x: | :x: |
-|2.4.5-p6| :x: | :x: | :x: | :x: | | :white_check_mark: | :x: | :x: |
-|2.4.6| :x: | :x: | :x: | :x: | | :white_check_mark: | :white_check_mark: | ? |
-|2.4.6-p1| :x: | :x: | :x: | :x: | | :white_check_mark: | :white_check_mark: | ? |
-|2.4.6-p2| :x: | :x: | :x: | :x: | | :white_check_mark: | :white_check_mark: | ? |
-|2.4.6-p3| :x: | :x: | :x: | :x: | | :white_check_mark: | :white_check_mark: | ? |
-|2.4.6-p4| :x: | :x: | :x: | :x: | | :white_check_mark: | :white_check_mark: | ? |
-|2.4.7-beta2| :x: | :x: | :x: | :x: | | :white_check_mark: | :white_check_mark: | ? |
+|2.4.4| :x: | :x: | :x: | :information_source:<sup>[3]</sup> | :information_source:<sup>[3]</sup> | :white_check_mark: | :x: | :x: |
+|2.4.4-p1| :x: | :x: | :x: | :information_source:<sup>[3]</sup> | :information_source:<sup>[3]</sup> | :white_check_mark: | :x: | :x: |
+|2.4.4-p2| :x: | :x: | :x: | :information_source:<sup>[3]</sup> | :information_source:<sup>[3]</sup> | :white_check_mark: | :x: | :x: |
+|2.4.4-p3| :x: | :x: | :x: | :information_source:<sup>[3]</sup> | :information_source:<sup>[3]</sup> | :white_check_mark: | :x: | :x: |
+|2.4.4-p4| :x: | :x: | :x: | :information_source:<sup>[3]</sup> | :information_source:<sup>[3]</sup> | :white_check_mark: | :x: | :x: |
+|2.4.4-p5| :x: | :x: | :x: | :information_source:<sup>[3]</sup> | :information_source:<sup>[3]</sup> | :white_check_mark: | :x: | :x: |
+|2.4.4-p6| :x: | :x: | :x: | :information_source:<sup>[3]</sup> | :information_source:<sup>[3]</sup> | :white_check_mark: | :x: | :x: |
+|2.4.4-p7| :x: | :x: | :x: | :information_source:<sup>[3]</sup> | :information_source:<sup>[3]</sup> | :white_check_mark: | :x: | :x: |
+|2.4.5| :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :x: | :x: |
+|2.4.5-p1| :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :x: | :x: |
+|2.4.5-p2| :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :x: | :x: |
+|2.4.5-p3| :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :x: | :x: |
+|2.4.5-p4| :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :x: | :x: |
+|2.4.5-p5| :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :x: | :x: |
+|2.4.5-p6| :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :x: | :x: |
+|2.4.6| :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :grey_question: |
+|2.4.6-p1| :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :grey_question: |
+|2.4.6-p2| :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :grey_question: |
+|2.4.6-p3| :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :grey_question: |
+|2.4.6-p4| :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :grey_question: |
+|2.4.7-beta2| :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :grey_question: |
 
 ## Composer
 | Magento Minor Version | Composer 1 | Composer 2 |
@@ -64,6 +58,30 @@ Notes:
 
 Notes:
 1. Composer 1 still works with Magento 2.3.7 and 2.4.2, but is no longer supported.
+
+| Magento Version | Composer 2.1 | Composer 2.2 | Composer 2.5 |
+|:---|---|---|---|
+|2.4.4| Composer 2.1 | Composer 2.2 | Composer 2.5 |
+|2.4.4-p1| Composer 2.1 | Composer 2.2 | Composer 2.5 |
+|2.4.4-p2| Composer 2.1 | Composer 2.2 | Composer 2.5 |
+|2.4.4-p3| Composer 2.1 | Composer 2.2 | Composer 2.5 |
+|2.4.4-p4| Composer 2.1 | Composer 2.2 | Composer 2.5 |
+|2.4.4-p5| Composer 2.1 | Composer 2.2 | Composer 2.5 |
+|2.4.4-p6| Composer 2.1 | Composer 2.2 | Composer 2.5 |
+|2.4.4-p7| Composer 2.1 | Composer 2.2 | Composer 2.5 |
+|2.4.5| Composer 2.1 | Composer 2.2 | Composer 2.5 |
+|2.4.5-p1| Composer 2.1 | Composer 2.2 | Composer 2.5 |
+|2.4.5-p2| Composer 2.1 | Composer 2.2 | Composer 2.5 |
+|2.4.5-p3| Composer 2.1 | Composer 2.2 | Composer 2.5 |
+|2.4.5-p4| Composer 2.1 | Composer 2.2 | Composer 2.5 |
+|2.4.5-p5| Composer 2.1 | Composer 2.2 | Composer 2.5 |
+|2.4.5-p6| Composer 2.1 | Composer 2.2 | Composer 2.5 |
+|2.4.6| Composer 2.1 | Composer 2.2 | Composer 2.5 |
+|2.4.6-p1| Composer 2.1 | Composer 2.2 | Composer 2.5 |
+|2.4.6-p2| Composer 2.1 | Composer 2.2 | Composer 2.5 |
+|2.4.6-p3| Composer 2.1 | Composer 2.2 | Composer 2.5 |
+|2.4.6-p4| Composer 2.1 | Composer 2.2 | Composer 2.5 |
+|2.4.7-beta2| Composer 2.1 | Composer 2.2 | Composer 2.5 |
 
 ## Elasticsearch
 
