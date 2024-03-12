@@ -21,13 +21,37 @@ Notes:
 
 | Magento Minor Version | PHP 7.1 | PHP 7.2 | PHP 7.3 | PHP 7.4 | PHP 8.0 | PHP 8.1 | PHP 8.2 | PHP 8.3 |
 |:---|---|---|---|---|---|---|---|---|
-|2.3|✓<sup>[1]</sup>|Until 2.3.6-p1|2.3.3 - 2.3.6<sup>[2]</sup>|2.3.7+|✗|✗| ? | ? |
-|2.4|✗|✗|Until 2.4.1<sup>[2]</sup>|Until 2.4.5<sup>3</sup>|✗<sup>3</sup>|2.4.4+| ? | ? |
+|2.3.x|:white_check_mark:<sup>[1]</sup>|Until 2.3.6-p1|2.3.3 - 2.3.6<sup>[2]</sup>|2.3.7+|:x:|:x:|:x:|:x:|
+|2.4.x|:x:|:x:|Until 2.4.1<sup>[2]</sup>|Until 2.4.5<sup>[3]</sup>|:x:<sup>[3]</sup>|2.4.4+|2.4.6+|?|
 
 Notes:
 1. Supports ~7.1.3
 2. The composer.json in 2.3.7, 2.4.1, and 2.4.2 appears to support 7.3, however the [System Requirements](https://devdocs.magento.com/guides/v2.3/install-gde/system-requirements.html) does not list it as a supported version. This likely means it can work, but you'll be on your own.
 3. Adobe has announced they're removing 7.3 in 2.4.4.  This likely means that 2.4.4 will be semi-compatible with 7.4 and 8.0, though it is targeting 8.1.
+
+| Magento Version | PHP 7.1 | PHP 7.2 | PHP 7.3 | PHP 7.4 | PHP 8.0 | PHP 8.1 | PHP 8.2 | PHP 8.3 |
+|:---|---|---|---|---|---|---|---|---|
+|2.4.4| :x: | :x: | :x: | :x: | | :white_check_mark: | :x: | :x: |
+|2.4.4-p1| :x: | :x: | :x: | :x: | | :white_check_mark: | :x: | :x: |
+|2.4.4-p2| :x: | :x: | :x: | :x: | | :white_check_mark: | :x: | :x: |
+|2.4.4-p3| :x: | :x: | :x: | :x: | | :white_check_mark: | :x: | :x: |
+|2.4.4-p4| :x: | :x: | :x: | :x: | | :white_check_mark: | :x: | :x: |
+|2.4.4-p5| :x: | :x: | :x: | :x: | | :white_check_mark: | :x: | :x: |
+|2.4.4-p6| :x: | :x: | :x: | :x: | | :white_check_mark: | :x: | :x: |
+|2.4.4-p7| :x: | :x: | :x: | :x: | | :white_check_mark: | :x: | :x: |
+|2.4.5| :x: | :x: | :x: | :x: | | :white_check_mark: | :x: | :x: |
+|2.4.5-p1| :x: | :x: | :x: | :x: | | :white_check_mark: | :x: | :x: |
+|2.4.5-p2| :x: | :x: | :x: | :x: | | :white_check_mark: | :x: | :x: |
+|2.4.5-p3| :x: | :x: | :x: | :x: | | :white_check_mark: | :x: | :x: |
+|2.4.5-p4| :x: | :x: | :x: | :x: | | :white_check_mark: | :x: | :x: |
+|2.4.5-p5| :x: | :x: | :x: | :x: | | :white_check_mark: | :x: | :x: |
+|2.4.5-p6| :x: | :x: | :x: | :x: | | :white_check_mark: | :x: | :x: |
+|2.4.6| :x: | :x: | :x: | :x: | | :white_check_mark: | :white_check_mark: | ? |
+|2.4.6-p1| :x: | :x: | :x: | :x: | | :white_check_mark: | :white_check_mark: | ? |
+|2.4.6-p2| :x: | :x: | :x: | :x: | | :white_check_mark: | :white_check_mark: | ? |
+|2.4.6-p3| :x: | :x: | :x: | :x: | | :white_check_mark: | :white_check_mark: | ? |
+|2.4.6-p4| :x: | :x: | :x: | :x: | | :white_check_mark: | :white_check_mark: | ? |
+|2.4.7-beta2| :x: | :x: | :x: | :x: | | :white_check_mark: | :white_check_mark: | ? |
 
 ## Composer
 | Magento Minor Version | Composer 1 | Composer 2 |
