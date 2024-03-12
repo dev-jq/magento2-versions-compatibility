@@ -82,31 +82,6 @@ Notes:
 |:---|---|
 |2.4|2.4.4+|
 
-## Redis
-
-| Magento Minor Version | Redis 2.4 | Redis 3.0 | Redis 3.2 | Redis 4.x | Redis 5.x | Redis 6.0 |
-|:---|---|---|---|---|---|---|
-|2.0|✗|✓|✗|✗|✗|✗|
-|2.1|✓|✓|✓|2.1.17+|2.1.17+|✗|
-|2.2|✓|✓|✓|✗|✗|✗|
-|2.3|Until 2.3.6|Until 2.3.6|Until 2.3.6|2.3.1 - 2.3.5|2.3.1 - 2.3.6|2.3.7+|
-|2.4|✗|✗|✗|✗|2.4.0 - 2.4.1|2.4.2+|
-
-## Varnish
-
-| Magento Minor Version | Varnish 3.5 | Varnish 4.x | Varnish 5.x | Varnish 6.x |
-|:---|---|---|---|---|
-|2.0|✓|✓|✗|✗|
-|2.1|✓|✓|✗|✗|
-|2.2|✗|✓|✓|✗|
-|2.3|✗|✓|✓<sup>1</sup>|✓<sup>2</sup>|
-|2.4|✗|✗|✗|✓<sup>3</sup>|
-
-Notes:
-1. Magento declares support for 5.2+
-2. Magento declares support for 6.2+, 6.5.1 explicitly supported with 2.3.7
-3. Tested with 6.3.1.  Magento 2.4.2 tested with 6.4
-
 ## Databases
 
 ### MySQL
@@ -135,3 +110,28 @@ Notes:
 Notes:
 1. Magento only uses MySQL features compatible with MariaDB. MariaDB may not be compatible with all MySQL features, however, so be sure to research compatibility issues before using a feature in your Magento module.
 2. Magento is also compatible, but has not been tested and is not recommended
+
+## Redis
+
+| Magento Minor Version | Redis 2.4 | Redis 3.0 | Redis 3.2 | Redis 4.x | Redis 5.x | Redis 6.0 |
+|:---|---|---|---|---|---|---|
+|2.0|✗|✓|✗|✗|✗|✗|
+|2.1|✓|✓|✓|2.1.17+|2.1.17+|✗|
+|2.2|✓|✓|✓|✗|✗|✗|
+|2.3|Until 2.3.6|Until 2.3.6|Until 2.3.6|2.3.1 - 2.3.5|2.3.1 - 2.3.6|2.3.7+|
+|2.4|✗|✗|✗|✗|2.4.0 - 2.4.1|2.4.2+|
+
+## Varnish
+
+| Magento Minor Version | Varnish 3.5 | Varnish 4.x | Varnish 5.x | Varnish 6.x |
+|:---|---|---|---|---|
+|2.0|✓|✓|✗|✗|
+|2.1|✓|✓|✗|✗|
+|2.2|✗|✓|✓|✗|
+|2.3|✗|✓|✓<sup>1</sup>|✓<sup>2</sup>|
+|2.4|✗|✗|✗|✓<sup>3</sup>|
+
+Notes:
+1. Magento declares support for 5.2+
+2. Magento declares support for 6.2+, 6.5.1 explicitly supported with 2.3.7
+3. Tested with 6.3.1.  Magento 2.4.2 tested with 6.4
