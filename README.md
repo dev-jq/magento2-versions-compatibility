@@ -1,4 +1,4 @@
-# Magento EOL
+# Magento 2.x.x lifecycle
 
 EOQ: End of Quality Fixes.  
 EOL: End of Security Fixes/End of Software Support
@@ -8,33 +8,29 @@ EOL: End of Security Fixes/End of Software Support
 |2.0|November 2015|**March 2018**|**March 2018**|
 |2.1|June 2016|**June 2019**|**July 1, 2019**|
 |2.2|September 2017|**December 2019**|**December 2019**|
-|2.3|November 2018|July 2021|April 28, 2022|
+|2.3|November 2018|**July 2021**|**April 28, 2022**|
 |2.4|July 2020|||
 
 Notes:
 1. Information taken regularly from the [Magento Software Lifecycle Policy document](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 
-# Supported Software
+# [Supported Software](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html?lang=en)
+
 
 ## PHP
 
-| Magento Minor Version | PHP 5.5 | PHP 5.6 | PHP 7.0 | PHP 7.1 | PHP 7.2 | PHP 7.3 | PHP 7.4 | PHP 8.0 | PHP 8.1
-|:---|---|---|---|---|---|---|---|---|---|
-|2.0|✓|✓|✓|✗|✗|✗|✗|✗|✗|
-|2.1|✗|✓|✓<sup>[1]</sup>|2.1.16+|✗|✗|✗|✗|✗|
-|2.2|✗|✗|✓<sup>[2]</sup>|✓|2.2.10+|✗|✗|✗|✗|✗|
-|2.3|✗|✗|✗|✓<sup>[3]</sup>|Until 2.3.6-p1|2.3.3 - 2.3.6<sup>[4]</sup>|2.3.7+|✗|✗|
-|2.4|✗|✗|✗|✗|✗|Until 2.4.1<sup>[4]</sup>|Until 2.4.5<sup>5</sup>|✗<sup>5</sup>|2.4.4+|
+| Magento Minor Version | PHP 7.1 | PHP 7.2 | PHP 7.3 | PHP 7.4 | PHP 8.0 | PHP 8.1 | PHP 8.2 | PHP 8.3 |
+|:---|---|---|---|---|---|---|---|---|
+|2.3|✓<sup>[1]</sup>|Until 2.3.6-p1|2.3.3 - 2.3.6<sup>[2]</sup>|2.3.7+|✗|✗| ? | ? |
+|2.4|✗|✗|Until 2.4.1<sup>[2]</sup>|Until 2.4.5<sup>3</sup>|✗<sup>3</sup>|2.4.4+| ? | ? |
 
 Notes:
-1. Only 7.0.2 and ~7.0.6 for 2.1.0-2.1.1.  Starting with 2.1.2 that was expanded to include 7.0.4.
-2. 7.0.2, 7.0.4, and ~7.0.6 for 2.2.0-2.2.4.  Starting with 2.2.5 7.0 support was limited to ~7.0.13
-3. Supports ~7.1.3
-4. The composer.json in 2.3.7, 2.4.1, and 2.4.2 appears to support 7.3, however the [System Requirements](https://devdocs.magento.com/guides/v2.3/install-gde/system-requirements.html) does not list it as a supported version. This likely means it can work, but you'll be on your own.
-5. Adobe has announced they're removing 7.3 in 2.4.4.  This likely means that 2.4.4 will be semi-compatible with 7.4 and 8.0, though it is targeting 8.1.
+1. Supports ~7.1.3
+2. The composer.json in 2.3.7, 2.4.1, and 2.4.2 appears to support 7.3, however the [System Requirements](https://devdocs.magento.com/guides/v2.3/install-gde/system-requirements.html) does not list it as a supported version. This likely means it can work, but you'll be on your own.
+3. Adobe has announced they're removing 7.3 in 2.4.4.  This likely means that 2.4.4 will be semi-compatible with 7.4 and 8.0, though it is targeting 8.1.
 
 ## Composer
-| Magento Minor Version | 1 | 2
+| Magento Minor Version | Composer 1 | Composer 2 |
 |:---|---|---|
 |2.0|✓|✗|
 |2.1|✓|✗|
@@ -68,19 +64,9 @@ Notes:
 |:---|---|
 |2.4|2.4.4+|
 
-## RabbitMQ
-
-| Magento Minor Version | 3.5 | 3.7 | 3.8 |
-|:---|---|---|---|
-|2.0|✓|✗|✗|
-|2.1|✓|✗|✗|
-|2.2|✓|✓|✗|
-|2.3|✗|Until 2.3.5|✓|
-|2.4|✗|✗|✓|
-
 ## Redis
 
-| Magento Minor Version | 2.4 | 3.0 | 3.2 | 4.x | 5.x | 6.0 |
+| Magento Minor Version | Redis 2.4 | Redis 3.0 | Redis 3.2 | Redis 4.x | Redis 5.x | Redis 6.0 |
 |:---|---|---|---|---|---|---|
 |2.0|✗|✓|✗|✗|✗|✗|
 |2.1|✓|✓|✓|2.1.17+|2.1.17+|✗|
@@ -90,7 +76,7 @@ Notes:
 
 ## Varnish
 
-| Magento Minor Version | 3.5 | 4.x | 5.x | 6.x |
+| Magento Minor Version | Varnish 3.5 | Varnish 4.x | Varnish 5.x | Varnish 6.x |
 |:---|---|---|---|---|
 |2.0|✓|✓|✗|✗|
 |2.1|✓|✓|✗|✗|
@@ -107,7 +93,7 @@ Notes:
 
 ### MySQL
 
-| Magento Minor Version | 5.6 | 5.7 | 8.0 |
+| Magento Minor Version | MySQL 5.6 | MySQL 5.7 | MySQL 8.0 |
 |:---|---|---|---|
 |2.0|✓|✗|✗|
 |2.1|✓|2.1.2+|✗|
@@ -120,7 +106,7 @@ Notes:
 
 ### MariaDB
 
-| Magento Minor Version | 10.0 | 10.1 | 10.2 | 10.3 | 10.4 | 10.5 |
+| Magento Minor Version | MariaDB 10.0 | MariaDB 10.1 | MariaDB 10.2 | MariaDB 10.3 | MariaDB 10.4 | MariaDB 10.5 |
 |:---|---|---|---|---|---|---|
 |2.0|✓|✓|✗|✗|✗|✗|
 |2.1|✓|✓|2.1.2+|✗|✗|✗|
