@@ -43,9 +43,11 @@ Notes:
 |2.4.6| :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :grey_question: |
 |2.4.6-p1| :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :grey_question: |
 |2.4.6-p2| :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :grey_question: |
-|2.4.6-p3| :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :grey_question: |
-|2.4.6-p4| :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :grey_question: |
-|2.4.7-beta2| :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :grey_question: |
+|2.4.6-p3| :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: |
+|2.4.6-p4| :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: |
+|2.4.7-beta2| :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: |
+|
+2.4.7-beta3| :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 
 ## Composer
 | Magento Minor Version | Composer 1 | Composer 2 |
