@@ -8,8 +8,24 @@
 |2.3 :no_entry: |November 2018|July 2021|April 28, 2022|
 |**2.4**|July 2020|||
 
-# [Supported Software](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html?lang=en)
+# Release information
+:arrow_right: Magento [2.4.7-beta](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/adobe-commerce/2-4-7)
 
+:arrow_right: Magento [2.4.6](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/adobe-commerce/2-4-6)
+
+:arrow_right: Magento [2.4.5](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/adobe-commerce/2-4-5)
+
+:arrow_right: Magento [2.4.4](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/adobe-commerce/2-4-4)
+
+:arrow_right: Magento [2.4.3](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/adobe-commerce/2-4-3)
+
+:arrow_right: Magento [2.4.2](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/adobe-commerce/2-4-2)
+
+:arrow_right: Magento [2.4.1](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/adobe-commerce/2-4-1)
+
+:arrow_right: Magento [2.4.0](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/adobe-commerce/2-4-0)
+
+# [Supported Software](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html?lang=en)
 
 ## PHP
 
