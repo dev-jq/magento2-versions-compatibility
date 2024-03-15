@@ -123,10 +123,10 @@ Notes:
 
 ## Redis
 
-| Magento Minor Version | Redis 2.4 | Redis 3.0 | Redis 3.2 | Redis 4.x | Redis 5.x | Redis 6.2 | Redis 7.0.x |
-|:---|---|---|---|---|---|---|---|
-|2.3|:information_source:Until 2.3.6|:information_source:Until 2.3.6|:information_source:Until 2.3.6|:heavy_check_mark:2.3.1 - 2.3.5|:heavy_check_mark:2.3.1 - 2.3.6|:heavy_check_mark:2.3.7+|:x:|
-|2.4|:x:|:x:|:x:|:x:|:heavy_check_mark:2.4.0 - 2.4.1|:heavy_check_mark:2.4.2 - 2.4.6|:heavy_check_mark:2.4.7+|
+| Magento Minor Version | Redis 4.x | Redis 5.x | Redis 6.2 | Redis 7.0.x |
+|:---|---|---|---|---|
+|2.3|:heavy_check_mark:2.3.1 - 2.3.5|:heavy_check_mark:2.3.1 - 2.3.6|:heavy_check_mark:2.3.7+|:x:|
+|2.4|:x:|:heavy_check_mark:2.4.0 - 2.4.1|:heavy_check_mark:2.4.2 - 2.4.6|:heavy_check_mark:2.4.7+|
 
 ## Varnish
 
