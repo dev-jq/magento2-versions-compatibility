@@ -49,13 +49,13 @@ Notes:
 |2.4.4-p5| :x: | :x: | :x: | :information_source:<sup>[3]</sup> | :information_source:<sup>[3]</sup> | :white_check_mark: | :x: | :x: |
 |2.4.4-p6| :x: | :x: | :x: | :information_source:<sup>[3]</sup> | :information_source:<sup>[3]</sup> | :white_check_mark: | :x: | :x: |
 |2.4.4-p7| :x: | :x: | :x: | :information_source:<sup>[3]</sup> | :information_source:<sup>[3]</sup> | :white_check_mark: | :x: | :x: |
-|2.4.5| :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :x: | :x: |
-|2.4.5-p1| :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :x: | :x: |
-|2.4.5-p2| :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :x: | :x: |
-|2.4.5-p3| :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :x: | :x: |
-|2.4.5-p4| :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :x: | :x: |
-|2.4.5-p5| :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :x: | :x: |
-|2.4.5-p6| :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :x: | :x: |
+|2.4.5| :x: | :x: | :x: | :information_source:<sup>[3]</sup> | :information_source:<sup>[3]</sup> | :white_check_mark: | :x: | :x: |
+|2.4.5-p1| :x: | :x: | :x: | :information_source:<sup>[3]</sup> | :information_source:<sup>[3]</sup> | :white_check_mark: | :x: | :x: |
+|2.4.5-p2| :x: | :x: | :x: | :information_source:<sup>[3]</sup> | :information_source:<sup>[3]</sup> | :white_check_mark: | :x: | :x: |
+|2.4.5-p3| :x: | :x: | :x: | :information_source:<sup>[3]</sup> | :information_source:<sup>[3]</sup> | :white_check_mark: | :x: | :x: |
+|2.4.5-p4| :x: | :x: | :x: | :information_source:<sup>[3]</sup> | :information_source:<sup>[3]</sup> | :white_check_mark: | :x: | :x: |
+|2.4.5-p5| :x: | :x: | :x: | :information_source:<sup>[3]</sup> | :information_source:<sup>[3]</sup> | :white_check_mark: | :x: | :x: |
+|2.4.5-p6| :x: | :x: | :x: | :information_source:<sup>[3]</sup> | :information_source:<sup>[3]</sup> | :white_check_mark: | :x: | :x: |
 |2.4.6| :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: |
 |2.4.6-p1| :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: |
 |2.4.6-p2| :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: |
@@ -76,10 +76,10 @@ Notes:
 
 ## Elasticsearch
 
-| Magento Minor Version | ES 5.x | ES 6.x | ES 7.4.x | ES 7.6.x | ES 7.9.x | ES 7.10.x |
-|:---|---|---|---|---|---|---|
-|2.3|:information_source: Until 2.3.5|:white_check_mark:|:heavy_check_mark:: 2.3.5+|:x:|:heavy_check_mark: 2.3.7+|:x:|
-|2.4|:x:|:x:|:heavy_check_mark: 2.4.2+<sup>[2]</sup>|:heavy_check_mark: 2.4.0-2.4.1<sup>[1]</sup>| :heavy_check_mark: 2.4.2+| :heavy_check_mark:2.4.4+
+| Magento Minor Version | ES 5.x | ES 6.x | ES 7.4.x | ES 7.6.x | ES 7.9.x | ES 7.10.x | ES 8.x |
+|:---|---|---|---|---|---|---|---|
+|2.3|:information_source: Until 2.3.5|:white_check_mark:|:heavy_check_mark:: 2.3.5+|:x:|:heavy_check_mark: 2.3.7+|:x:|:x:|
+|2.4|:x:|:x:|:heavy_check_mark: 2.4.2+<sup>[2]</sup>|:heavy_check_mark: 2.4.0-2.4.1<sup>[1]</sup>| :heavy_check_mark: 2.4.2 - 2.4.3| :heavy_check_mark:2.4.4 - 2.4.5|:heavy_check_mark:2.4.6+|
 
 Notes:
 1. 2.4.0 specifically declares support for ES 7.6.x
@@ -117,17 +117,17 @@ Notes:
 
 ## Redis
 
-| Magento Minor Version | Redis 2.4 | Redis 3.0 | Redis 3.2 | Redis 4.x | Redis 5.x | Redis 6.0 |
-|:---|---|---|---|---|---|---|
-|2.3|:information_source:Until 2.3.6|:information_source:Until 2.3.6|:information_source:Until 2.3.6|:heavy_check_mark:2.3.1 - 2.3.5|:heavy_check_mark:2.3.1 - 2.3.6|:heavy_check_mark:2.3.7+|
-|2.4|:x:|:x:|:x:|:x:|:heavy_check_mark:2.4.0 - 2.4.1|:heavy_check_mark:2.4.2+|
+| Magento Minor Version | Redis 2.4 | Redis 3.0 | Redis 3.2 | Redis 4.x | Redis 5.x | Redis 6.2 | Redis 7.0.x |
+|:---|---|---|---|---|---|---|---|
+|2.3|:information_source:Until 2.3.6|:information_source:Until 2.3.6|:information_source:Until 2.3.6|:heavy_check_mark:2.3.1 - 2.3.5|:heavy_check_mark:2.3.1 - 2.3.6|:heavy_check_mark:2.3.7+|:x:|
+|2.4|:x:|:x:|:x:|:x:|:heavy_check_mark:2.4.0 - 2.4.1|:heavy_check_mark:2.4.2 - 2.4.6|:heavy_check_mark:2.4.7+|
 
 ## Varnish
 
-| Magento Minor Version | Varnish 3.5 | Varnish 4.x | Varnish 5.x | Varnish 6.x |
-|:---|---|---|---|---|
-|2.3|:x:|:white_check_mark:|:white_check_mark:<sup>[1]</sup>|:white_check_mark:<sup>[2]</sup>|
-|2.4|:x:|:x:|:x:|:white_check_mark:<sup>[3]</sup>|
+| Magento Minor Version | Varnish 3.5 | Varnish 4.x | Varnish 5.x | Varnish 6.x | Varnish 7.x |
+|:---|---|---|---|---|---|
+|2.3|:x:|:white_check_mark:|:white_check_mark:<sup>[1]</sup>|:white_check_mark:<sup>[2]</sup>|:x:|
+|2.4|:x:|:x:|:x:|:white_check_mark:<sup>[3]</sup>|:heavy_check_mark:2.4.4+|
 
 Notes:
 1. Magento declares support for 5.2+
