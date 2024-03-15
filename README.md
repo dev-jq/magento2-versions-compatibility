@@ -41,6 +41,12 @@ Notes:
 
 | Magento Version | PHP 7.1 | PHP 7.2 | PHP 7.3 | PHP 7.4 | PHP 8.0 | PHP 8.1 | PHP 8.2 | PHP 8.3 |
 |:---|---|---|---|---|---|---|---|---|
+|2.2.0| :white_check_mark: | :x: | :x: | :x: | :x: | :x: | :x: | :x: |
+|2.3.0| :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :x: | :x: | :x: |
+|2.4.0| :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :x: |
+|2.4.1| :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :x: |
+|2.4.2| :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :x: |
+|2.4.3| :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :x: |
 |2.4.4| :x: | :x: | :x: | :information_source:<sup>[3]</sup> | :information_source:<sup>[3]</sup> | :white_check_mark: | :x: | :x: |
 |2.4.4-p1| :x: | :x: | :x: | :information_source:<sup>[3]</sup> | :information_source:<sup>[3]</sup> | :white_check_mark: | :x: | :x: |
 |2.4.4-p2| :x: | :x: | :x: | :information_source:<sup>[3]</sup> | :information_source:<sup>[3]</sup> | :white_check_mark: | :x: | :x: |
@@ -124,10 +130,10 @@ Notes:
 
 ## Varnish
 
-| Magento Minor Version | Varnish 3.5 | Varnish 4.x | Varnish 5.x | Varnish 6.x | Varnish 7.x |
-|:---|---|---|---|---|---|
-|2.3|:x:|:white_check_mark:|:white_check_mark:<sup>[1]</sup>|:white_check_mark:<sup>[2]</sup>|:x:|
-|2.4|:x:|:x:|:x:|:white_check_mark:<sup>[3]</sup>|:heavy_check_mark:2.4.4+|
+| Magento Minor Version | Varnish 4.x | Varnish 5.x | Varnish 6.x | Varnish 7.x |
+|:---|---|---|---|---|
+|2.3|:white_check_mark:|:white_check_mark:<sup>[1]</sup>|:white_check_mark:<sup>[2]</sup>|:x:|
+|2.4|:x:|:x:|:white_check_mark:<sup>[3]</sup>|:heavy_check_mark:2.4.4+|
 
 Notes:
 1. Magento declares support for 5.2+
