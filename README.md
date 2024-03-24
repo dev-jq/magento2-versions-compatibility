@@ -8,7 +8,7 @@
 |:no_entry:|2.3 |November 2018|July 2021|April 28, 2022|
 |:heavy_check_mark:|**2.4**|July 2020|||
 
-# Release information
+# Release information and [release planning](https://experienceleague.adobe.com/en/docs/commerce-operations/release/planning/schedule)
 :arrow_right: Magento [2.4.7-beta](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/adobe-commerce/2-4-7)
 
 :arrow_right: Magento [2.4.6](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/adobe-commerce/2-4-6)
