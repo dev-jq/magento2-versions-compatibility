@@ -32,12 +32,13 @@
 | Magento Minor Version | PHP 7.1 | PHP 7.2 | PHP 7.3 | PHP 7.4 | PHP 8.0 | PHP 8.1 | PHP 8.2 | PHP 8.3 |
 |:---|---|---|---|---|---|---|---|---|
 |2.3.x|:white_check_mark:<sup>[1]</sup>|:information_source:Until 2.3.6-p1|:heavy_check_mark:2.3.3 - 2.3.6<sup>[2]</sup>|:heavy_check_mark:2.3.7+|:x:|:x:|:x:|:x:|
-|2.4.x|:x:|:x:|:information_source:Until 2.4.1<sup>[2]</sup>|:information_source:Until 2.4.5<sup>[3]</sup>|:information_source:<sup>[3]</sup>|:heavy_check_mark:2.4.4+|:heavy_check_mark:2.4.6+|:heavy_check_mark:2.4.7+|
+|2.4.x|:x:|:x:|:information_source:Until 2.4.1<sup>[2]</sup>|:information_source:Until 2.4.5<sup>[3]</sup>|:information_source:<sup>[3]</sup>|:heavy_check_mark:2.4.4 - 2.4.6|:heavy_check_mark:2.4.6+|:heavy_check_mark:2.4.7+|
 
 Notes:
 1. Supports ~7.1.3
 2. The composer.json in 2.3.7, 2.4.1, and 2.4.2 appears to support 7.3, however the [System Requirements](https://devdocs.magento.com/guides/v2.3/install-gde/system-requirements.html) does not list it as a supported version. This likely means it can work, but you'll be on your own.
 3. Adobe has announced they're removing 7.3 in 2.4.4.  This likely means that 2.4.4 will be semi-compatible with 7.4 and 8.0, though it is targeting 8.1.
+4. Adobe Commerce 2.4.7 is still compatible with PHP 8.1 for upgrade purposes only. PHP 8.1 is not supported and not recommended.
 
 | Magento Version | PHP 7.1 | PHP 7.2 | PHP 7.3 | PHP 7.4 | PHP 8.0 | PHP 8.1 | PHP 8.2 | PHP 8.3 |
 |:---|---|---|---|---|---|---|---|---|
@@ -67,7 +68,7 @@ Notes:
 |2.4.6-p2| :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: |
 |2.4.6-p3| :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: |
 |2.4.6-p4| :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: |
-|2.4.7| :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+|2.4.7| :x: | :x: | :x: | :x: | :x: | :information_source:<sup>[4]</sup> | :white_check_mark: | :white_check_mark: |
 
 ## Composer
 | Magento Minor Version | Composer 1 | Composer 2 |
