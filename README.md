@@ -9,7 +9,7 @@
 |:heavy_check_mark:|**2.4**|July 2020|||
 
 # Release information and [release planning](https://experienceleague.adobe.com/en/docs/commerce-operations/release/planning/schedule)
-:arrow_right: Magento [2.4.7-beta](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/adobe-commerce/2-4-7)
+:arrow_right: Magento [2.4.7](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/adobe-commerce/2-4-7)
 
 :arrow_right: Magento [2.4.6](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/adobe-commerce/2-4-6)
 
@@ -32,7 +32,7 @@
 | Magento Minor Version | PHP 7.1 | PHP 7.2 | PHP 7.3 | PHP 7.4 | PHP 8.0 | PHP 8.1 | PHP 8.2 | PHP 8.3 |
 |:---|---|---|---|---|---|---|---|---|
 |2.3.x|:white_check_mark:<sup>[1]</sup>|:information_source:Until 2.3.6-p1|:heavy_check_mark:2.3.3 - 2.3.6<sup>[2]</sup>|:heavy_check_mark:2.3.7+|:x:|:x:|:x:|:x:|
-|2.4.x|:x:|:x:|:information_source:Until 2.4.1<sup>[2]</sup>|:information_source:Until 2.4.5<sup>[3]</sup>|:information_source:<sup>[3]</sup>|:heavy_check_mark:2.4.4+|:heavy_check_mark:2.4.6+|:heavy_check_mark:2.4.7-beta3+|
+|2.4.x|:x:|:x:|:information_source:Until 2.4.1<sup>[2]</sup>|:information_source:Until 2.4.5<sup>[3]</sup>|:information_source:<sup>[3]</sup>|:heavy_check_mark:2.4.4+|:heavy_check_mark:2.4.6+|:heavy_check_mark:2.4.7+|
 
 Notes:
 1. Supports ~7.1.3
@@ -67,9 +67,7 @@ Notes:
 |2.4.6-p2| :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: |
 |2.4.6-p3| :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: |
 |2.4.6-p4| :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: |
-|2.4.7-beta1| :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: |
-|2.4.7-beta2| :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: |
-|2.4.7-beta3| :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+|2.4.7| :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 
 ## Composer
 | Magento Minor Version | Composer 1 | Composer 2 |
