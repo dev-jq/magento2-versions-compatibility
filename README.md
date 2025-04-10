@@ -9,6 +9,8 @@
 |:heavy_check_mark:|**2.4**|July 2020|||
 
 # Release information and [release planning](https://experienceleague.adobe.com/en/docs/commerce-operations/release/planning/schedule)
+:arrow_right: Magento [2.4.8](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/adobe-commerce/2-4-8)
+
 :arrow_right: Magento [2.4.7](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/adobe-commerce/2-4-7)
 
 :arrow_right: Magento [2.4.6](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/adobe-commerce/2-4-6)
@@ -29,10 +31,10 @@
 
 ## PHP
 
-| Magento Minor Version | PHP 7.1 | PHP 7.2 | PHP 7.3 | PHP 7.4 | PHP 8.0 | PHP 8.1 | PHP 8.2 | PHP 8.3 |
-|:---|---|---|---|---|---|---|---|---|
-|2.3.x|:white_check_mark:<sup>[1]</sup>|:information_source:Until 2.3.6-p1|:heavy_check_mark:2.3.3 - 2.3.6<sup>[2]</sup>|:heavy_check_mark:2.3.7+|:x:|:x:|:x:|:x:|
-|2.4.x|:x:|:x:|:information_source:Until 2.4.1<sup>[2]</sup>|:information_source:Until 2.4.5<sup>[3]</sup>|:information_source:<sup>[3]</sup>|:heavy_check_mark:2.4.4 - 2.4.6|:heavy_check_mark:2.4.6+|:heavy_check_mark:2.4.7+|
+| Magento Minor Version | PHP 7.1 | PHP 7.2 | PHP 7.3 | PHP 7.4 | PHP 8.0 | PHP 8.1 | PHP 8.2 | PHP 8.3 | PHP 8.4 |
+|:---|---|---|---|---|---|---|---|---|---|
+|2.3.x|:white_check_mark:<sup>[1]</sup>|:information_source:Until 2.3.6-p1|:heavy_check_mark:2.3.3 - 2.3.6<sup>[2]</sup>|:heavy_check_mark:2.3.7+|:x:|:x:|:x:|:x:|:x:|
+|2.4.x|:x:|:x:|:information_source:Until 2.4.1<sup>[2]</sup>|:information_source:Until 2.4.5<sup>[3]</sup>|:information_source:<sup>[3]</sup>|:heavy_check_mark:2.4.4 - 2.4.6|:heavy_check_mark:2.4.6+|:heavy_check_mark:2.4.7+|:heavy_check_mark:2.4.8+|
 
 Notes:
 1. Supports ~7.1.3
@@ -40,35 +42,19 @@ Notes:
 3. Adobe has announced they're removing 7.3 in 2.4.4.  This likely means that 2.4.4 will be semi-compatible with 7.4 and 8.0, though it is targeting 8.1.
 4. Adobe Commerce 2.4.7 is still compatible with PHP 8.1 for upgrade purposes only. PHP 8.1 is not supported and not recommended.
 
-| Magento Version | PHP 7.1 | PHP 7.2 | PHP 7.3 | PHP 7.4 | PHP 8.0 | PHP 8.1 | PHP 8.2 | PHP 8.3 |
-|:---|---|---|---|---|---|---|---|---|
-|2.2.0| :white_check_mark: | :x: | :x: | :x: | :x: | :x: | :x: | :x: |
-|2.3.0| :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :x: | :x: | :x: |
-|2.4.0| :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :x: |
-|2.4.1| :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :x: |
-|2.4.2| :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :x: |
-|2.4.3| :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :x: |
-|2.4.4| :x: | :x: | :x: | :information_source:<sup>[3]</sup> | :information_source:<sup>[3]</sup> | :white_check_mark: | :x: | :x: |
-|2.4.4-p1| :x: | :x: | :x: | :information_source:<sup>[3]</sup> | :information_source:<sup>[3]</sup> | :white_check_mark: | :x: | :x: |
-|2.4.4-p2| :x: | :x: | :x: | :information_source:<sup>[3]</sup> | :information_source:<sup>[3]</sup> | :white_check_mark: | :x: | :x: |
-|2.4.4-p3| :x: | :x: | :x: | :information_source:<sup>[3]</sup> | :information_source:<sup>[3]</sup> | :white_check_mark: | :x: | :x: |
-|2.4.4-p4| :x: | :x: | :x: | :information_source:<sup>[3]</sup> | :information_source:<sup>[3]</sup> | :white_check_mark: | :x: | :x: |
-|2.4.4-p5| :x: | :x: | :x: | :information_source:<sup>[3]</sup> | :information_source:<sup>[3]</sup> | :white_check_mark: | :x: | :x: |
-|2.4.4-p6| :x: | :x: | :x: | :information_source:<sup>[3]</sup> | :information_source:<sup>[3]</sup> | :white_check_mark: | :x: | :x: |
-|2.4.4-p7| :x: | :x: | :x: | :information_source:<sup>[3]</sup> | :information_source:<sup>[3]</sup> | :white_check_mark: | :x: | :x: |
-|2.4.5| :x: | :x: | :x: | :information_source:<sup>[3]</sup> | :information_source:<sup>[3]</sup> | :white_check_mark: | :x: | :x: |
-|2.4.5-p1| :x: | :x: | :x: | :information_source:<sup>[3]</sup> | :information_source:<sup>[3]</sup> | :white_check_mark: | :x: | :x: |
-|2.4.5-p2| :x: | :x: | :x: | :information_source:<sup>[3]</sup> | :information_source:<sup>[3]</sup> | :white_check_mark: | :x: | :x: |
-|2.4.5-p3| :x: | :x: | :x: | :information_source:<sup>[3]</sup> | :information_source:<sup>[3]</sup> | :white_check_mark: | :x: | :x: |
-|2.4.5-p4| :x: | :x: | :x: | :information_source:<sup>[3]</sup> | :information_source:<sup>[3]</sup> | :white_check_mark: | :x: | :x: |
-|2.4.5-p5| :x: | :x: | :x: | :information_source:<sup>[3]</sup> | :information_source:<sup>[3]</sup> | :white_check_mark: | :x: | :x: |
-|2.4.5-p6| :x: | :x: | :x: | :information_source:<sup>[3]</sup> | :information_source:<sup>[3]</sup> | :white_check_mark: | :x: | :x: |
-|2.4.6| :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: |
-|2.4.6-p1| :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: |
-|2.4.6-p2| :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: |
-|2.4.6-p3| :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: |
-|2.4.6-p4| :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: |
-|2.4.7| :x: | :x: | :x: | :x: | :x: | :information_source:<sup>[4]</sup> | :white_check_mark: | :white_check_mark: |
+| Magento Version | PHP 7.1 | PHP 7.2 | PHP 7.3 | PHP 7.4 | PHP 8.0 | PHP 8.1 | PHP 8.2 | PHP 8.3 | PHP 8.4 |
+|:---|---|---|---|---|---|---|---|---|---|
+|2.2.0| :white_check_mark: | :x: | :x: | :x: | :x: | :x: | :x: | :x: | :x: |
+|2.3.0| :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :x: | :x: | :x: | :x: |
+|2.4.0| :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :x: | :x: |
+|2.4.1| :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :x: | :x: |
+|2.4.2| :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :x: | :x: |
+|2.4.3| :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :x: | :x: |
+|2.4.4| :x: | :x: | :x: | :information_source:<sup>[3]</sup> | :information_source:<sup>[3]</sup> | :white_check_mark: | :x: | :x: | :x: |
+|2.4.5| :x: | :x: | :x: | :information_source:<sup>[3]</sup> | :information_source:<sup>[3]</sup> | :white_check_mark: | :x: | :x: | :x: |
+|2.4.6| :x: | :x: | :x: | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :x: |
+|2.4.7| :x: | :x: | :x: | :x: | :x: | :information_source:<sup>[4]</sup> | :white_check_mark: | :white_check_mark: | :x: |
+|2.4.8| :x: | :x: | :x: | :x: | :x: | :x:| :white_check_mark: | :white_check_mark: | :white_check_mark: |
 
 ## Composer
 | Magento Minor Version | Composer 1 | Composer 2 |
@@ -84,18 +70,22 @@ Notes:
 | Magento Minor Version | ES 5.x | ES 6.x | ES 7.4.x | ES 7.6.x | ES 7.9.x | ES 7.10.x | ES 8.x |
 |:---|---|---|---|---|---|---|---|
 |2.3|:information_source: Until 2.3.5|:white_check_mark:|:heavy_check_mark:: 2.3.5+|:x:|:heavy_check_mark: 2.3.7+|:x:|:x:|
-|2.4|:x:|:x:|:heavy_check_mark: 2.4.2+<sup>[2]</sup>|:heavy_check_mark: 2.4.0-2.4.1<sup>[1]</sup>| :heavy_check_mark: 2.4.2 - 2.4.3| :heavy_check_mark:2.4.4 - 2.4.5|:heavy_check_mark:2.4.6+|
+|2.4|:x:|:x:|:heavy_check_mark: 2.4.2+<sup>[2]</sup>|:heavy_check_mark: 2.4.0-2.4.1<sup>[1]</sup>| :heavy_check_mark: 2.4.2 - 2.4.3| :heavy_check_mark:2.4.4 - 2.4.5|:heavy_check_mark:2.4.6 - 2.4.7|
 
 Notes:
 1. 2.4.0 specifically declares support for ES 7.6.x
 2. 2.4.2 states "Magento 2.4.x remains compatible with Elasticsearch 7.4.x" despite compatibility not being declared at any point
+3. 2.4.8 "The Elasticsearch 7 and Elasticsearch 8 options are now labeled as "(Deprecated)". We recommend using OpenSearch as a search engine instead."
 
 ## Opensearch
 
-| Magento Minor Version | OS 1.x
-|:---|---|
-|2.3|:x:|
-|2.4|:heavy_check_mark:2.4.4+|
+| Magento Minor Version | OS 1.x | OS 2.x |
+|:---|---|---|
+|2.3|:x:|:x:|
+|2.4|:heavy_check_mark:2.4.4+|:heavy_check_mark:2.4.7+|
+
+Notes:
+1. 2.4.8 is now optimized for OpenSearch 2.19 and is no longer compatible with Elasticsearch.
 
 ## Databases
 
@@ -111,10 +101,10 @@ Notes:
 
 ### MariaDB
 
-| Magento Minor Version | MariaDB 10.0 | MariaDB 10.1 | MariaDB 10.2 | MariaDB 10.3 | MariaDB 10.4 | MariaDB 10.5 | MariaDB 10.6 |
-|:---|---|---|---|---|---|---|---|
-|2.3|:white_check_mark:<sup>[1]</sup>|:white_check_mark:<sup>[1]</sup>|:white_check_mark:<sup>[1]</sup>|:white_check_mark:<sup>[1]</sup>|:white_check_mark:<sup>[1]</sup>|:x:|:x:|
-|2.4|:x:|:x:|:white_check_mark:<sup>[2]</sup>|:white_check_mark:<sup>[2]</sup>|:white_check_mark:<sup>[2]</sup>|:white_check_mark:|:heavy_check_mark:2.4.6+|
+| Magento Minor Version | MariaDB 10.0 | MariaDB 10.1 | MariaDB 10.2 | MariaDB 10.3 | MariaDB 10.4 | MariaDB 10.5 | MariaDB 10.6 | MariaDB 11.4 
+|:---|---|---|---|---|---|---|---|---|
+|2.3|:white_check_mark:<sup>[1]</sup>|:white_check_mark:<sup>[1]</sup>|:white_check_mark:<sup>[1]</sup>|:white_check_mark:<sup>[1]</sup>|:white_check_mark:<sup>[1]</sup>|:x:|:x:|:x:|
+|2.4|:x:|:x:|:white_check_mark:<sup>[2]</sup>|:white_check_mark:<sup>[2]</sup>|:white_check_mark:<sup>[2]</sup>|:white_check_mark:|:heavy_check_mark:2.4.6+|:heavy_check_mark:2.4.8+|
 
 Notes:
 1. Magento only uses MySQL features compatible with MariaDB. MariaDB may not be compatible with all MySQL features, however, so be sure to research compatibility issues before using a feature in your Magento module.
@@ -122,7 +112,7 @@ Notes:
 
 ## Redis
 
-| Magento Minor Version | Redis 4.x | Redis 5.x | Redis 6.2 | Redis 7.0.x |
+| Magento Minor Version | Redis 4.x | Redis 5.x | Redis 6.2 | Redis 7.2 |
 |:---|---|---|---|---|
 |2.3|:heavy_check_mark:2.3.1 - 2.3.5|:heavy_check_mark:2.3.1 - 2.3.6|:heavy_check_mark:2.3.7+|:x:|
 |2.4|:x:|:heavy_check_mark:2.4.0 - 2.4.1|:heavy_check_mark:2.4.2 - 2.4.6|:heavy_check_mark:2.4.7+|
